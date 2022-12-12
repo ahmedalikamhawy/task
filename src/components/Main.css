@@ -1,15 +1,27 @@
 main{
     margin: 100px;
+    box-sizing: border-box;
 }
 .main-frm{
     display: flex;
     justify-content: center;
     margin: 20px;
+    height: 50px;
 }
 .main-frm div{
     padding-left: 15px;
 }
+.main-frm input{
+    height:20px;
+    width: 350px;
+    border-radius: 10px;
+    border: 1px solid rgb(155, 154, 154);
+}
+.main-frm div button{
+    padding: 10px 22px;
+}
 .main-rtcl{
+    width: 100%;
     display: flex;
     margin-left: 20px;
 }
